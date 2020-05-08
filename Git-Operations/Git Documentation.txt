@@ -1,0 +1,52 @@
+# Basic Commands:
+
+$ git init
+$ git remote add origin "<remote location link>"
+$ git pull origin master
+$ git status
+$ git add
+$ git commit -m "<Enter the meaningful commit statement>"
+$ git log 
+
+# Parallel Development and Branching:
+
+$ git branch <branch_name>
+$ git checkout <branch_name_to_work_under>
+ 
+# Parallel Development and Margeing:
+  always check the current branch in cmd in which the other branchs are merged.
+ 
+$ git merge <Created_branch_in_which_something_appended>
+$ git commit -a -m 
+$ cat <file_name>
+
+# Parallel Development and Rebasing:
+
+$ git add -A
+$ git commit -a -m "< message as commit statement >"
+$ git rebase <branch_name..generally master branch from the current_branch>
+$ git rebase <branch_name..generally current_branch from the master_branch>
+
+# Connection to Remote Repository and Upload:
+
+$ ssh-keygen
+$ cat <file_name.pub>
+$ ssh -T git@github.com
+
+# Pushing Code to Remote Server:
+
+$ git push origin <branch_name...like firstbranch>
+
+# Revert to previous Version
+
+$ git log #Here just check the hexadecimal digit available there copy just 4 digits of begining
+$ git chekcout <hexadecimal digit> <file_name>
+$ 
+
+
+
+
+
+
+
+
